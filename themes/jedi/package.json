@@ -1,0 +1,12 @@
+{
+  "name": "jedi",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./source/input.css -o ./source/css/index.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
